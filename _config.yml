@@ -1,0 +1,23 @@
+# 网站基本信息
+title: 我的博客
+
+description: >-
+  这里是我的博客。
+baseurl: ""          # 如果是用户名.github.io，留空；如果是项目站点，填 "/项目名"
+url: "https://syaoran-h.github.io"  # 替换 your-username 为你的 GitHub 用户名
+
+# 作者信息（可选）
+
+
+# 使用官方支持的主题（minima 是默认主题，简洁清晰）
+theme: minima
+
+# 启用官方白名单插件（安全且 GitHub Pages 支持）
+plugins:
+  - jekyll-feed        # 生成 RSS 订阅 /feed.xml
+  - jekyll-seo-tag     # 自动添加 SEO 元标签
+  - jekyll-sitemap     # 自动生成 sitemap.xml
+
+# 构建设置
+markdown: kramdown
+highlighter: rouge
